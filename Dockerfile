@@ -6,6 +6,8 @@ RUN apk add --no-cache bash
 RUN apk add --no-cache shadow
 #RUN chsh -s /bin/bash
 
+RUN apk add nano
+
 ENTRYPOINT ["tail", "-f", "/dev/null"]
 
 #CMD ["/bin/sh"]
