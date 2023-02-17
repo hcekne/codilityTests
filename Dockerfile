@@ -8,6 +8,7 @@ RUN apk add --no-cache shadow
 
 RUN apk add nano
 
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+CMD ["/bin/bash"]
+#ENTRYPOINT ["tail", "-f", "/dev/null"]
 
 #CMD ["/bin/sh"]
