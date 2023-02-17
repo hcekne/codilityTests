@@ -13,5 +13,5 @@
 docker run -it --rm \
     -p 3838:3838 \
     --user root \
-    -v "${PWD}/app":/app/ \
+    -v "${PWD}/src":/src/ \
         plain_alpine_python_38_image
