@@ -1,0 +1,7 @@
+Dockerfile
+.git
+
+dist
+runcontainer.sh
+buildcontainer.sh
+*.egg-info
